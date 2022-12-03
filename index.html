@@ -17,7 +17,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="container center">
+        <div class="container header__wrapper">
             <div class="header__logo">
                 <a href="/">
                     <img src="images/logo.png" alt="Логотип ИКИТ">
@@ -27,7 +27,7 @@
             <nav class="nav">
                 <ul class="nav__menu">
                     <li class="nav__element">
-                        <a href="" class="nav__button active">Главная </a>
+                        <a href="" class="nav__button nav__button_active">Главная </a>
                     </li>
                     <li class="nav__element">
                         <a href="" class="nav__button">Информация</a>
@@ -53,7 +53,7 @@
         <article class="article">
             <h2 class="article__subtitle">Полезная информация</h2>
             <div class="article__info">
-                <section class="sidebar">
+                <section class="sidebar article__sidebar">
                     <h3 class="sidebar__title">
                         Заголовок
                     </h3>
@@ -64,7 +64,7 @@
                         <li class="sidebar__list-element">Список 4</li>
                     </ul>
                 </section>
-                <section class="news">
+                <section class="news article__news">
                     <h3 class="news__label">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
                     <section class="news__block">
                         <h4 class="news__title">Заголовок</h4>
@@ -94,44 +94,50 @@
             <h2 class="article__subtitle-center">Интересные статьи</h2>
             <p class="article__description">Описать, о чем эти статьи, кратко</p>
 
-            <div class="card">
-                <section class="section">
-                    <img class="section__image" src="images/Image_1.png" alt="image">
-                    <div class="content">
-                        <h4 class="content__title">Boost your conversion rate</h4>
-                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            <div class="card-items">
+                <section class="card">
+                    <img class="card__image" src="images/Image_1.png" alt="image">
+                    <div class="card__body">
+                        <h4 class="card__title">Boost your conversion rate</h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
                             accusantium praesentium eius, ut atque fuga culpa,
-                            similique sequi cum eos quis dolorum.</p>
-
-                        <p class="content__details">Mar 16, 2020 · 6 min read</p>
-
+                            similique sequi cum eos quis dolorum.
+                        </p>
+                        <footer>
+                            <p class="card__details"><time datetime="2020-03-16">Mar 16, 2020</time> · 6 min read</p>
+                        </footer>
                     </div>
                 </section>
 
-                <section class="section">
-                    <img class="section__image" src="images/Image_2.png" alt="image">
-                    <div class="content">
-                        <h4 class="content__title">How to use search engine optimization to drive sales</h4>
-                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
+                <section class="card">
+                    <img class="card__image" src="images/Image_2.png" alt="image">
+                    <div class="card__body">
+                        <h4 class="card__title">How to use search engine optimization to drive sales</h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
                             asperiores porro quaerat doloribus, eveniet
-                            dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
-
-                        <p class="content__details">Mar 10, 2020 · 4 min read</p>
-
+                            dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+                        </p>
+                        <footer>
+                            <p class="card__details"><time datetime="2020-03-10">Mar 10, 2020</time> · 4 min read</p>
+                        </footer>
                     </div>
                 </section>
 
-                <section class="section">
-                    <img class="section__image" src="images/Image_3.png" alt="image">
-                    <div class="content">
-                        <h4 class="content__title">Improve your customer experience</h4>
-                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum
+                <section class="card">
+                    <img class="card__image" src="images/Image_3.png" alt="image">
+                    <div class="card__body">
+                        <h4 class="card__title">Improve your customer experience</h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum
                             rerum
                             voluptatem quo recusandae magni placeat saepe
-                            molestiae, sed excepturi cumque corporis perferendis hic.</p>
-
-                        <p class="content__details">Feb 12, 2020 · 11 min read</p>
-
+                            molestiae, sed excepturi cumque corporis perferendis hic.
+                        </p>
+                        <footer>
+                            <p class="card__details"><time datetime="2020-02-12">Feb 12, 2020</time> · 11 min read</p>
+                        </footer>
                     </div>
                 </section>
             </div>
