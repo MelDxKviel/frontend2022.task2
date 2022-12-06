@@ -7,14 +7,148 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-    <title>Название вашей страницы - изменить</title>
+    <title>Верстка проекта</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container header__wrapper">
+            <div class="header__logo">
+                <a href="/">
+                    <img src="images/logo.png" alt="Логотип ИКИТ">
+                </a>
+            </div>
+
+            <nav class="nav">
+                <ul class="nav__menu">
+                    <li class="nav__element">
+                        <a href="" class="nav__button nav__button--active">Главная </a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="" class="nav__button">Информация</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="" class="nav__button">Новости</a>
+                    </li>
+                    <li class="nav__element">
+                        <a href="" class="nav__button">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="profile">
+                <span class="profile__name">Карташев И.С.</span>
+                <img class="profile__avatar" src="images/Avatar.png" alt="Avatar">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="container__title">Личная страница</h1>
+        <article class="article">
+            <h2 class="article__subtitle">Полезная информация</h2>
+            <div class="article__info">
+                <section class="sidebar article__sidebar">
+                    <h3 class="sidebar__title">
+                        Заголовок
+                    </h3>
+                    <ul class="sidebar__list">
+                        <li class="sidebar__list-element">Список 1</li>
+                        <li class="sidebar__list-element">Список 2</li>
+                        <li class="sidebar__list-element">Список 3</li>
+                        <li class="sidebar__list-element">Список 4</li>
+                    </ul>
+                </section>
+                <section class="news article__news">
+                    <h3 class="news__label">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
+                    <section class="news__block">
+                        <h4 class="news__title">Заголовок</h4>
+                        <p class="news__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </section>
+                    <section class="news__block">
+                        <h4 class="news__title">Заголовок</h4>
+                        <p class="news__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </section>
+                </section>
+            </div>
+        </article>
+
+        <article class="article">
+            <h2 class="article__subtitle-center">Интересные статьи</h2>
+            <p class="article__description">Описать, о чем эти статьи, кратко</p>
+
+            <div class="card-items">
+                <section class="card">
+                    <img class="card__image" src="images/Image_1.png" alt="image">
+                    <div class="card__body">
+                        <h4 class="card__title">Boost your conversion rate</h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            accusantium praesentium eius, ut atque fuga culpa,
+                            similique sequi cum eos quis dolorum.
+                        </p>
+                        <footer>
+                            <p class="card__details"><time datetime="2020-03-16">Mar 16, 2020</time> · 6 min read</p>
+                        </footer>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <img class="card__image" src="images/Image_2.png" alt="image">
+                    <div class="card__body">
+                        <h4 class="card__title">How to use search engine optimization to drive sales</h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
+                            asperiores porro quaerat doloribus, eveniet
+                            dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
+                        </p>
+                        <footer>
+                            <p class="card__details"><time datetime="2020-03-10">Mar 10, 2020</time> · 4 min read</p>
+                        </footer>
+                    </div>
+                </section>
+
+                <section class="card">
+                    <img class="card__image" src="images/Image_3.png" alt="image">
+                    <div class="card__body">
+                        <h4 class="card__title">Improve your customer experience</h4>
+                        <p class="card__text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum
+                            rerum
+                            voluptatem quo recusandae magni placeat saepe
+                            molestiae, sed excepturi cumque corporis perferendis hic.
+                        </p>
+                        <footer>
+                            <p class="card__details"><time datetime="2020-02-12">Feb 12, 2020</time> · 11 min read</p>
+                        </footer>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">© 2022 Институт космических и информационных технологий СФУ</p>
+        </div>
+    </footer>
 
 </body>
 </html>
