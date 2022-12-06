@@ -122,13 +122,13 @@
 .sidebar__list {
   padding: 0px 30px 0px 30px;
   list-style-position: inside;
+  list-style-type: disc;
 }
 
 .sidebar__list-element {
   font-weight: 400;
   font-size: 16px;
   color: #000000;
-  list-style-type: disc;
 }
 
 .article__news {
